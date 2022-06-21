@@ -24,6 +24,11 @@
       "packageName": "libgreet",
       "projectFolder": "lib/greet",
       "shouldPublish": false
+    },
+    {
+      "packageName": "hello-strict",
+      "projectFolder": "cli/hello-strict",
+      "shouldPublish": false
     }
   ]
 }

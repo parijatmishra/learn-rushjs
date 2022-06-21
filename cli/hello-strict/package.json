@@ -1,0 +1,23 @@
+{
+  "name": "hello-strict",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "NODE_OPTIONS=--experimental-vm-modules jest"
+  },
+  "devDependencies": {
+    "@tsconfig/node16-strictest-esm": "~1.0.2",
+    "@types/jest": "~28.1.2",
+    "@types/node": "~18.0.0",
+    "jest": "~28.1.1",
+    "ts-jest": "~28.0.5",
+    "typescript": "~4.7.4"
+  },
+  "dependencies": {
+    "libgreet": "workspace:*",
+    "commander": "~9.3.0"
+  }
+}
