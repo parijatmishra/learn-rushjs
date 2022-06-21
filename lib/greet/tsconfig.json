@@ -1,0 +1,10 @@
+{
+  // https://github.com/tsconfig/bases#node-16--strictest-tsconfigjson
+  "extends": "@tsconfig/node16-strictest-esm/tsconfig.json",
+  "include": ["src/**/*"],
+  "exclude": ["**/*.test.ts"],
+  "compilerOptions": {
+    "rootDir": "src",
+    "outDir": "dist"
+  }
+}

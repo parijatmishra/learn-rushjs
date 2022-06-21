@@ -20,5 +20,10 @@
     "url": "https://github.com/parijatmishra/learn-rushjs"
   },
   "projects": [
+    {
+      "packageName": "@parijatmishra/learn-rushjs-lib-greet",
+      "projectFolder": "lib/greet",
+      "shouldPublish": false
+    }
   ]
 }
