@@ -1,9 +1,9 @@
 {
-  "name": "@parijatmishra/learn-rushjs-lib-greet",
+  "name": "libgreet",
   "version": "0.0.0",
   "private": true,
   "type": "module",
-  "main": "dist/mani.js",
+  "main": "dist/main.js",
   "scripts": {
     "build": "tsc",
     "test": "NODE_OPTIONS=--experimental-vm-modules jest"

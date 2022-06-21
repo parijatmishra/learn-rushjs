@@ -21,7 +21,7 @@
   },
   "projects": [
     {
-      "packageName": "@parijatmishra/learn-rushjs-lib-greet",
+      "packageName": "libgreet",
       "projectFolder": "lib/greet",
       "shouldPublish": false
     }
